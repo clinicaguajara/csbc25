@@ -78,7 +78,7 @@ if payload:
     st.caption("Um percentil 50 indica um desempenho mediano, igual à maioria.")
     st.caption("Um percentil 20 significa que 80\% das pessoas ficaram acima da sua pontuação.")
 
-    st.markdown("Veja o [artigo referente à apresentação](https://csbc25.streamlit.app)")
+    st.markdown("Veja o [artigo referente à apresentação](https://www.researchgate.net/publication/393851562_How_Metacognition_Shapes_Higher_Education_Adoption_of_LLMs_A_Structural_Equation_Modeling_Approach)")
     st.markdown("E aqui o [artigo de validação das escalas](https://www.researchgate.net/publication/376859964_Assessing_the_Psychological_Impact_of_Generative_AI_on_Computer_and_Data_Science_Education_An_Exploratory_Study)")
     st.markdown("Conheça o meu trabalho no [instagram](https://www.instagram.com/clinicaguajara/)")
     st.write("Pela atenção, obrigado!!!")
