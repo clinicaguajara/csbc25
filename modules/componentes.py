@@ -40,10 +40,11 @@ def render_questionario(itens_por_bloco: Dict[str, List[str]]) -> dict | None:
 
                 respostas_usuario[f"item_{contador}"] = st.session_state[f"item_{contador}"]
                 contador += 1
-
+        placeholder = st.empty()
         enviado = st.form_submit_button("Enviar Respostas", use_container_width=True)
 
     if enviado:
+        placeholder.success("✅ Respostas enviadas com sucesso!")
         return {"respostas": respostas_usuario}
 
     return None
