@@ -28,7 +28,6 @@ def render_questionario(itens_por_bloco: Dict[str, List[str]]) -> dict | None:
                 label_max = "7 - Concordo totalmente"
 
             for item in itens:
-                st.write(f"**{contador}. {item}**")
                 st.slider(
                     label=f"{contador}. {item}",
                     min_value=1,
